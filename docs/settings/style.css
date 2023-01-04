@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(0,0,0, .9);
+}
+
+a {
+    font-size: 20px;
+    color: white;
+}
+summary{
+    color: white;
+}
+p{
+    color: white;
+}
+pre{
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+h4{
+    color: white;
+}
+h5{
+    color: white;
+}
+h6{
+    color: white;
+}
+
+/* table */
+th{
+    color: white;
+}
+td{
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: rgba(255,255,255,.1);
+}
+/* tr:nth-child(odd) {
+    background-color: rgba(0,0,0,.8);
+} */

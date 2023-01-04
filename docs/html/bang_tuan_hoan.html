@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../settings/style.css">
+    <title>Bảng tuần hoàn HTML</title>
+
+    <style>
+        .root_element {
+            background-color:green
+        }
+        .text_level_semantics {
+            background-color: yellow
+        }
+        .forms{
+            background-color: rgb(20, 170, 0);
+            
+        }
+        .tabular_data{
+            background-color: brown
+        }
+        .metadata_and_scripting{
+            background-color: blue
+        }
+        .grouping_content{
+            background-color: rgb(192, 29, 29)
+        }
+        .document_sections{
+            background-color: aqua;
+        }
+        .interactive_elements{
+            background-color: aliceblue;
+            
+        }
+        .embedding_content{
+            background-color: blueviolet;
+        }
+        body{
+            background-color: rgba(0,0,0, .8);
+        }
+        .element_cell{
+            width: 100px;
+            height: 100px;
+            font-size:150%;
+            /* border: 10px; */
+            margin: 5px;
+            /* max-font-size: 40px; */
+            /* float:right; */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: white;">Bảng tuần hoàn các thẻ html</h1>
+    </header>
+    <!-- ô mẫu -->
+    <button class="element_cell">element</button> <br>
+    <hr>
+    <!-- Các loại màu sắc của thẻ 
+    root element
+    text level semantics
+    forms 
+    tabular data
+    metadata and scripting
+    grouping content
+    document sections
+    interactive elements
+    embedding content
+    -->
+
+
+    <!-- bảng tuần hoàn -->
+    <div>
+        
+        <table>
+
+            <!-- 1 "html col table"-->
+            <tr> 
+                <td><button class="element_cell root_element">html</button></td>
+                <td colspan="15"></td>
+                <td><button class="element_cell tabular_data">col</button></td>
+                <td><button class="element_cell tabular_data">table</button></td>
+                
+            </tr>
+            <!-- 2 "head span fieldset form body h1 section colgroup tr"-->
+            <tr> 
+                <td><button class="element_cell metadata_and_scripting">head</button></td>
+                <td><button class="element_cell text_level_semantics">span</button></td>
+                <td colspan="9"></td>
+                <td><button class="element_cell forms">fieldset</button></td>
+                <td><button class="element_cell forms">form</button></td>
+                <td><button class="element_cell document_sections">body</button></td>
+                <td><button class="element_cell document_sections">h1</button></td>
+                <td><button class="element_cell document_sections">section</button></td>
+                <td><button class="element_cell tabular_data">colgroup</button></td>
+                <td><button class="element_cell tabular_data">tr</button></td>
+
+            </tr>
+            <tr> <!-- 3 "title a meter select aside h2 header caption td"-->
+                <td><button class="element_cell metadata_and_scripting">title</button></td>
+                <td><button class="element_cell text_level_semantics">a</button></td>
+                <td colspan="9"></td>
+                <td><button class="element_cell forms">meter</button></td>
+                <td><button class="element_cell forms">select</button></td>
+                <td><button class="element_cell document_sections">aside</button></td>
+                <td><button class="element_cell document_sections">h2</button></td>
+                <td><button class="element_cell document_sections">header</button></td>
+                <td><button class="element_cell tabular_data">caption</button></td>
+                <td><button class="element_cell tabular_data">td</button></td>
+
+            </tr> 
+            <tr> <!-- 4 --> 
+                <td><button class="element_cell metadata_and_scripting">meta</button></td>
+                <td><button class="element_cell text_level_semantics">rt</button></td>
+                <td><button class="element_cell text_level_semantics">dfn</button></td>
+                <td><button class="element_cell text_level_semantics">em</button></td>
+                <td><button class="element_cell text_level_semantics">i</button></td>
+                <td><button class="element_cell text_level_semantics">small</button></td>
+                <td><button class="element_cell text_level_semantics">ins</button></td>
+                <td><button class="element_cell grouping_content">hr</button></td>
+                <td><button class="element_cell grouping_content">p</button></td>
+                <td><button class="element_cell grouping_content">div</button></td>
+                <td><button class="element_cell grouping_content">blockquote</button></td>
+                <td><button class="element_cell forms">legend</button></td>
+                <td><button class="element_cell forms">optgroup</button></td>
+                <td><button class="element_cell document_sections">address</button></td>
+                <td><button class="element_cell document_sections">h3</button></td>
+                <td><button class="element_cell document_sections">nav</button></td>
+                <td><button class="element_cell interactive_elements">menu</button></td>
+                <td><button class="element_cell tabular_data">th</button></td>
+
+            </tr>
+            <!-- 5 -->
+            <tr> 
+                <td><button class="element_cell metadata_and_scripting">base</button></td>
+                <td><button class="element_cell text_level_semantics">rp</button></td>
+                <td><button class="element_cell text_level_semantics">abbr</button></td>
+                <td><button class="element_cell text_level_semantics">time</button></td>
+                <td><button class="element_cell text_level_semantics">b</button></td>
+                <td><button class="element_cell text_level_semantics">strong</button></td>
+                <td><button class="element_cell text_level_semantics">del</button></td>
+                <td><button class="element_cell grouping_content">br</button></td>
+                <td><button class="element_cell grouping_content">figcaption</button></td>
+                <td><button class="element_cell grouping_content">ol</button></td>
+                <td><button class="element_cell grouping_content">dl</button></td>
+                <td><button class="element_cell forms">label</button></td>
+                <td><button class="element_cell forms">option</button></td>
+                <td><button class="element_cell forms">datalist</button></td>
+                <td><button class="element_cell document_sections">h4</button></td>
+                <td><button class="element_cell document_sections">article</button></td>
+                <td><button class="element_cell interactive_elements">command</button></td>
+                <td><button class="element_cell tabular_data">tbody</button></td>
+
+            </tr>
+            <!-- 6 -->
+            <tr>
+                <td><button class="element_cell metadata_and_scripting">link</button></td>
+                <td><button class="element_cell metadata_and_scripting">noscript</button></td>
+                <td><button class="element_cell text_level_semantics">q</button></td>
+                <td><button class="element_cell text_level_semantics">var</button></td>
+                <td><button class="element_cell text_level_semantics">sub</button></td>
+                <td><button class="element_cell text_level_semantics">mark</button></td>
+                <td><button class="element_cell text_level_semantics">kbd</button></td>
+                <td><button class="element_cell text_level_semantics">wbr</button></td>
+                <td><button class="element_cell grouping_content">figure</button></td>
+                <td><button class="element_cell grouping_content">ul</button></td>
+                <td><button class="element_cell grouping_content">dt</button></td>
+                <td><button class="element_cell forms">input</button></td>
+                <td><button class="element_cell forms">output</button></td>
+                <td><button class="element_cell forms">keygen</button></td>
+                <td><button class="element_cell document_sections">h5</button></td>
+                <td><button class="element_cell document_sections">footer</button></td>
+                <td><button class="element_cell interactive_elements">summary</button></td>
+                <td><button class="element_cell tabular_data">thead</button></td>
+
+            </tr>
+            <!-- 7  "style script cite samp sub ruby bdo code pre li dd textarea button progress h6 hgroup details tfoot"-->
+            <tr>
+                <td><button class="element_cell metadata_and_scripting">style</button></td>
+                <td><button class="element_cell metadata_and_scripting">script</button></td>
+                <td><button class="element_cell text_level_semantics">cite</button></td>
+                <td><button class="element_cell text_level_semantics">samp</button></td>
+                <td><button class="element_cell text_level_semantics">sub</button></td>
+                <td><button class="element_cell text_level_semantics">ruby</button></td>
+                <td><button class="element_cell text_level_semantics">bdo</button></td>
+                <td><button class="element_cell text_level_semantics">code</button></td>
+                <td><button class="element_cell grouping_content">pre</button></td>
+                <td><button class="element_cell grouping_content">li</button></td>
+                <td><button class="element_cell grouping_content">dd</button></td>
+                <td><button class="element_cell forms">textarea</button></td>
+                <td><button class="element_cell forms">button</button></td>
+                <td><button class="element_cell forms">progress</button></td>
+                <td><button class="element_cell document_sections">h6</button></td>
+                <td><button class="element_cell document_sections">hgroup</button></td>
+                <td><button class="element_cell interactive_elements">details</button></td>
+                <td><button class="element_cell tabular_data">tfoot</button></td>
+            </tr>
+            <!-- khoảng trống -->
+            <tr>
+                <td colspan="18" style="height: 100px;"></td>
+            </tr>
+            <!-- 8  "img area map embed object param source iframe canvas track* audio video device*"-->
+            <tr>
+                <td colspan="5"></td>
+                <td><button class="element_cell embedding_content">img</button></td>
+                <td><button class="element_cell embedding_content">area</button></td>
+                <td><button class="element_cell embedding_content">map</button></td>
+                <td><button class="element_cell embedding_content">embed</button></td>
+                <td><button class="element_cell embedding_content">object</button></td>
+                <td><button class="element_cell embedding_content">param</button></td>
+                <td><button class="element_cell embedding_content">source</button></td>
+                <td><button class="element_cell embedding_content">iframe</button></td>
+                <td><button class="element_cell embedding_content">canvas</button></td>
+                <td><button class="element_cell embedding_content">track*</button></td>
+                <td><button class="element_cell embedding_content">audio</button></td>
+                <td><button class="element_cell embedding_content">video</button></td>
+                <td><button class="element_cell embedding_content">device*</button></td>
+
+            </tr>
+        </table>
+    </div>
+    <br>
+    <!-- python thuật toán tạo ô thẻ 
+        
+clss = "element_cell text_level_semantics"
+
+l = "span a rt dfn em i small ins rp abbr time b strong del q var sub mark kbd wbr cite samp sup ruby bdo code"
+
+li = l.split(' ')
+
+result = ""
+for i in li:
+	connect = f'<td><button class="{clss}">{i}</button></td>'
+
+	result = result + "\n" + connect
+
+print(result)
+     -->
+    
+    <!-- các ô thẻ ghi chú -->
+
+    <button style="width: 25px; height: 25px;" class="root_element" for="" ></button>                 <label style="color: white;" for="">root element</label>
+    <button style="width: 25px; height: 25px;" class="text_level_semantics" for="" ></button>         <label style="color: white;"  for="">text level semantics</label>
+    <button style="width: 25px; height: 25px;" class="forms" for="" ></button>                          <label style="color: white;"  for="">forms</label>
+    <button style="width: 25px; height: 25px;" class="tabular_data" for="" ></button>                 <label style="color: white;" >tabular data</label>
+    <button style="width: 25px; height: 25px;" class="metadata_and_scripting" for="" ></button>      <label style="color: white;" > metadata and scripting</label>
+    <button style="width: 25px; height: 25px;" class="grouping_content" for="" ></button>             <label style="color: white;"  for="">grouping content</label>
+    <button style="width: 25px; height: 25px;" class="document_sections" for="" ></button>            <label style="color: white;"  for="">document sections</label>
+    <button style="width: 25px; height: 25px;" class="interactive_elements" for="" ></button>         <label style="color: white;"  for="">interactive elements</label>
+    <button style="width: 25px; height: 25px;" class="embedding_content" for="" ></button>             <label style="color: white;"  for="">embedding content</label>
+
+    <!-- --------------------------------------------------------------- -->
+    <br> 
+    <h3 style="color: white;">Thẻ theo thứ tự thường xuyên</h3>
+    <button class="element_cell" style="background-color: hsl(100, 100%, 50%);">html</button>
+    <button class="element_cell">head</button>
+    <button class="element_cell">title</button>
+    <button class="element_cell">base</button>
+    <button class="element_cell">link</button>
+    <button class="element_cell">meta</button>
+    <button class="element_cell">style</button>
+    <button class="element_cell">script</button>
+    <button class="element_cell">noscript</button>
+    <button class="element_cell">template</button>
+    <button class="element_cell">slot</button>
+    <button class="element_cell">body</button>
+    <button class="element_cell">main</button>
+    <button class="element_cell">section</button>
+    <button class="element_cell">nav</button>
+    <button class="element_cell">article</button>
+    <button class="element_cell">aside</button>
+    <button class="element_cell">header</button>
+    <button class="element_cell">footer</button>
+    <button class="element_cell">h1</button>
+    <button class="element_cell">h2</button>
+    <button class="element_cell">h3</button>
+    <button class="element_cell">h4</button>
+    <button class="element_cell">h5</button>
+    <button class="element_cell">h6</button>
+    <button class="element_cell">address</button>
+    <button class="element_cell">p</button>
+    <button class="element_cell">hr</button>
+    <button class="element_cell">br</button>
+    <button class="element_cell">pre</button>
+    <button class="element_cell">blockquote</button>
+    <button class="element_cell">ol</button>
+    <button class="element_cell">ul</button>
+    <button class="element_cell">li</button>
+    <button class="element_cell">dl</button>
+    <button class="element_cell">dt</button>
+    <button class="element_cell">dd</button>
+    <button class="element_cell">figure</button>
+    <button class="element_cell">figcaption</button>
+    <button class="element_cell">div</button>
+    <button class="element_cell">dialog</button>
+    <button class="element_cell">a</button>
+    <button class="element_cell">em</button>
+    <button class="element_cell">strong</button>
+    <button class="element_cell">small</button>
+    <button class="element_cell">cite</button>
+    <button class="element_cell">s</button>
+    <button class="element_cell">q</button>
+    <button class="element_cell">dfn</button>
+    <button class="element_cell">abbr</button>
+    <button class="element_cell">data</button>
+    <button class="element_cell">time</button>
+    <button class="element_cell">code</button>
+    <button class="element_cell">var</button>
+    <button class="element_cell">samp</button>
+    <button class="element_cell">kbd</button>
+    <button class="element_cell">sub</button>
+    <button class="element_cell">sup</button>
+    <button class="element_cell">i</button>
+    <button class="element_cell">b</button>
+    <button class="element_cell">mark</button>
+    <button class="element_cell">ruby</button>
+    <button class="element_cell">rb</button>
+    <button class="element_cell">rt</button>
+    <button class="element_cell">rtc</button>
+    <button class="element_cell">rp</button>
+    <button class="element_cell">bdo</button>
+    <button class="element_cell">bdi</button>
+    <button class="element_cell">span</button>
+    <button class="element_cell">u</button>
+    <button class="element_cell">ins</button>
+    <button class="element_cell">del</button>
+    <button class="element_cell">wbr</button>
+    <button class="element_cell">img</button>
+    <button class="element_cell">picture</button>
+    <button class="element_cell">iframe</button>
+    <button class="element_cell">embed</button>
+    <button class="element_cell">object</button>
+    <button class="element_cell">param</button>
+    <button class="element_cell">video</button>
+    <button class="element_cell">audio</button>
+    <button class="element_cell">source</button>
+    <button class="element_cell">canvas</button>
+    <button class="element_cell">map</button>
+    <button class="element_cell">area</button>
+    <button class="element_cell">track</button>
+    <button class="element_cell">table</button>
+    <button class="element_cell">caption</button>
+    <button class="element_cell">colgroup</button>
+    <button class="element_cell">col</button>
+    <button class="element_cell">tbody</button>
+    <button class="element_cell">thead</button>
+    <button class="element_cell">tfoot</button>
+    <button class="element_cell">tr</button>
+    <button class="element_cell">td</button>
+    <button class="element_cell">th</button>
+    <button class="element_cell">form</button>
+    <button class="element_cell">fieldset</button>
+    <button class="element_cell">legend</button>
+    <button class="element_cell">label</button>
+    <button class="element_cell">input</button>
+    <button class="element_cell">button</button>
+    <button class="element_cell">select</button>
+    <button class="element_cell">datalist</button>
+    <button class="element_cell">optgroup</button>
+    <button class="element_cell">option</button>
+    <button class="element_cell">textarea</button>
+    <button class="element_cell">output</button>
+    <button class="element_cell">progress</button>
+    <button class="element_cell">meter</button>
+    <button class="element_cell">details</button>
+    <button class="element_cell" style="background-color: hsl(300, 100%, 50%);">sumary</button>
+
+    <footer>
+        <object data="../settings/footer.html" type=""></object>
+    </footer>
+
+</body> 
+</html>
